@@ -1,0 +1,193 @@
+{
+    "resume" : {
+        "main": {
+            "name":"Pierre Météyé",
+            "occupation":"Développeur Front-end et expert SEO.",
+            "image":"photo_profil.jpg",
+            "email": "meteyepg@gmail.com",
+            "phone": "07 62 12 80 28",
+            "resumedownload":"http://something.com",
+            "social":[
+                {
+                    "name":"twitter",
+                    "url":"https://twitter.com/Txman4",
+                    "className":"fa fa-twitter"
+                },
+                {
+
+                    "url":"https://fr.linkedin.com/in/pierremeteye",
+                    "className":"fa fa-linkedin"
+                },
+                {
+                    "name":"github",
+                    "url":"https://github.com/pmeteye",
+                    "className":"fa fa-github"
+                }
+            ],
+            "menu":[
+                {
+                    "name": "Accueil",
+                    "href": "#Home"
+                },
+                {
+                    "name": "Expériences",
+                    "href": "#Experience"
+                },
+                {
+                    "name": "Diplomes",
+                    "href": "#Education"
+                },
+                {
+                    "name": "Compétences",
+                    "href": "#Skills"
+                },
+                {
+                    "name": "Centres d'intérêts",
+                    "href": "#Interests"
+                }
+            ]
+        },
+        "diplomes":[
+            {
+                "school":"EF (Education First) - San Francisco",
+                "degree":"Advanced Diploma in Digital Marketing ",
+                "graduated":"February 2016"
+            },
+            {
+                "school":"ECITV - Paris",
+                "degree":"Master 2 Digital Marketing and E-business",
+                "graduated":"March 2016"
+            },
+            {
+                "school":"Pôle Paris Alternance (PPA) - Paris",
+                "degree":"Bachelor Marketing and trade",
+                "graduated":"July 2013"
+            },
+            {
+                "school":"Fustel de Coulanges - Massy",
+                "degree":"Technical Degrees in Negociation and relationship",
+                "graduated":"July 2012"
+            },
+            {
+                "school":"Lewis School of English - Southampton ",
+                "degree":"Intermidiate BI",
+                "graduated":"July 2011"
+            },
+            {
+                "school":"Francisque Sarcey - Dourdan",
+                "degree":"High School Diploma in Commercial",
+                "graduated":"July 2010"
+            }
+
+        ],
+
+        "work":[
+            {
+                "company":"HITPART",
+                "title":"Développeur Front-End (Ingenieur d’études et de développement)",
+                "years":"Novembre 2016 - Aujourd'hui",
+                "description":"Référent Front-end du plateau technique sur plusieurs projets pour le compte de grandes entreprises"
+            },
+            {
+                "company":"Freelance",
+                "title":"Développeur Front-End et Expert SEO",
+                "years":"Mars 2015 - Aujourd'hui",
+                "description":"Gestion de projet en référencement naturel et développement de site sous CMS."
+            },
+            {
+                "company":"WHOmentors.com",
+                "title":"Executive Trainee",
+                "years":"Nov 2015 - Fev 2016",
+                "description":"Représentation de l’entreprise lors de concours de développement."
+            }
+        ],
+        "skills":[
+            {
+                "name":"HTML5"
+            },
+            {
+                "name":"CSS3"
+            },
+            {
+                "name":"SASS"
+            },
+            {
+                "name":"Compass"
+            },
+            {
+                "name":"Bootstrap"
+            },
+            {
+                "name":"Javascript"
+            },
+            {
+                "name":"jQuery"
+            },
+            {
+                "name":"AJAX"
+            },
+            {
+                "name":"NodeJS"
+            },
+            {
+                "name":"Highcharts"
+            },
+            {
+                "name":"ReactJs"
+            },
+            {
+                "name":"MongoDB"
+            },
+            {
+                "name":"Gulp/Grunt/Webpack​"
+            },
+            {
+                "name":"SEO"
+            },
+            {
+                "name":"Photoshop"
+            },
+            {
+                "name":"Illustrator"
+            },
+            {
+                "name":"Wordpress"
+            },
+            {
+                "name":"AdobeXD"
+            },
+            {
+                "name":"PhantomJS"
+            },
+            {
+                "name":"CasperJs"
+            }
+        ],
+        "projects": [
+            {
+                "title":"CanvasBalls",
+                "category":"Web Design",
+                "image":"canvasBalls.jpg",
+                "url":"https://codepen.io/pierre-meteye/pen/yzwgxm"
+            },
+            {
+                "title":"CircularMotion",
+                "category":"Web Design",
+                "image":"circularMotion.jpg",
+                "url":"https://codepen.io/pierre-meteye/pen/wrOgRQ"
+            },
+            {
+                "title":"Patatap Clone",
+                "category":"Web Design",
+                "image":"black.jpg",
+                "url":"https://codepen.io/pierre-meteye/pen/pEBNLY"
+            },
+            {
+                "title":"Color Game Project",
+                "category":"Web Design",
+                "image":"colorgame.jpg",
+                "url":"https://codepen.io/pierre-meteye/pen/ORGbXx"
+            }
+        ]
+    }
+}

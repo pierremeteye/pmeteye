@@ -10,8 +10,15 @@
 }
 
 html * {
-	font-family: Roboto;
+	font-family: 'Source Code Pro', monospace;
 	color: #5E514D;
+}
+
+html,
+body,
+#root,
+.App {
+    height: 100%;
 }
 
 .absolute {
@@ -206,4 +213,8 @@ html * {
 
 .va-middle {
 	vertical-align: middle;
+}
+
+.resume-section {
+	padding: 3rem!important;
 }
