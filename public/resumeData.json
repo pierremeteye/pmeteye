@@ -42,41 +42,46 @@
                     "href": "#Skills"
                 },
                 {
-                    "name": "Centres d'intérêts",
-                    "href": "#Interests"
+                    "name": "Projets",
+                    "href": "#Projects"
                 }
             ]
         },
         "diplomes":[
             {
+                "school":"WEBFORCE 3",
+                "degree":"Techniques d'Intégration et de Développement Web",
+                "graduated":"Août 2016"
+            },
+            {
                 "school":"EF (Education First) - San Francisco",
                 "degree":"Advanced Diploma in Digital Marketing ",
-                "graduated":"February 2016"
+                "graduated":"Février 2016"
             },
             {
                 "school":"ECITV - Paris",
                 "degree":"Master 2 Digital Marketing and E-business",
-                "graduated":"March 2016"
+                "graduated":"Mars 2016"
             },
             {
                 "school":"Pôle Paris Alternance (PPA) - Paris",
                 "degree":"Bachelor Marketing and trade",
-                "graduated":"July 2013"
+                "graduated":"Juillet 2013"
             },
             {
                 "school":"Fustel de Coulanges - Massy",
                 "degree":"Technical Degrees in Negociation and relationship",
-                "graduated":"July 2012"
+                "graduated":"Juillet 2012"
             },
             {
                 "school":"Lewis School of English - Southampton ",
                 "degree":"Intermidiate BI",
-                "graduated":"July 2011"
+                "graduated":"Juillet 2011"
             },
             {
                 "school":"Francisque Sarcey - Dourdan",
                 "degree":"High School Diploma in Commercial",
-                "graduated":"July 2010"
+                "graduated":"Juillet 2010"
             }
 
         ],
@@ -103,64 +108,43 @@
         ],
         "skills":[
             {
-                "name":"HTML5"
+                "name":"html5"
             },
             {
-                "name":"CSS3"
+                "name":"css3"
             },
             {
-                "name":"SASS"
+                "name":"sass"
             },
             {
-                "name":"Compass"
+                "name":"compass"
             },
             {
-                "name":"Bootstrap"
+                "name":"bootstrap"
             },
             {
-                "name":"Javascript"
+                "name":"javascript"
             },
             {
-                "name":"jQuery"
+                "name":"jquery"
             },
             {
-                "name":"AJAX"
+                "name":"php"
             },
             {
-                "name":"NodeJS"
+                "name":"react"
             },
             {
-                "name":"Highcharts"
+                "name":"babel"
             },
             {
-                "name":"ReactJs"
+                "name":"webpack"
             },
             {
-                "name":"MongoDB"
+                "name":"gulp"
             },
             {
-                "name":"Gulp/Grunt/Webpack​"
-            },
-            {
-                "name":"SEO"
-            },
-            {
-                "name":"Photoshop"
-            },
-            {
-                "name":"Illustrator"
-            },
-            {
-                "name":"Wordpress"
-            },
-            {
-                "name":"AdobeXD"
-            },
-            {
-                "name":"PhantomJS"
-            },
-            {
-                "name":"CasperJs"
+                "name":"wordpress"
             }
         ],
         "projects": [

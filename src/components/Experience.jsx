@@ -12,14 +12,14 @@ export default class Experience extends Component {
                             <p>{work.description}</p>
                         </div>
                         <div className="resume-date text-md-right">
-                            <span className="text-primary">{work.project}</span>
+                            <span className="text-primary">{work.years}</span>
                         </div>
                     </div>
                 )
             })
         }
         return(
-            <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="Experience">
+            <section className="resume-section p-3 p-lg-5 d-flex flex-column relative" id="Experience">
                 <div className="my-auto">
                     <h2 className="mb-5">Experience</h2>
                     {work}

@@ -5,7 +5,9 @@ import Header from './components/Header';
 import Experience from './components/Experience';
 import Education from './components/Education';
 import Skills from './components/Skills';
-import Interests from './components/Interests';
+import Projects from './components/Projects';
+import ParticlesReact from './components/ParticlesReact';
+
 
 class App extends Component {
 
@@ -33,28 +35,29 @@ class App extends Component {
                     error
                 });
             }
-        )
+            )
     }
     render() {
         const { error, isLoaded } = this.state;
         // const { error, isLoaded, items } = this.state;
         if (error) {
             return <div>Error: {error.message}</div>;
-            } else if (!isLoaded) {
-                return <div>Loading...</div>;
-                } else {
-                    return (
-                        <div id="#App" className="App">
-                            <Nav data={this.state.items.main} />
-                            <Header data={this.state.items.main} />
-                            <Experience data={this.state.items}/>
-                            <Education data={this.state.items}/>
-                            <Skills data={this.state.items}/>
-                            <Interests />
-                        </div>
-                    );
-                }
-            }
+        } else if (!isLoaded) {
+            return <div>Loading...</div>;
+        } else {
+            return (
+                <div id="#App" className="App">
+                <ParticlesReact />
+                <Nav data={this.state.items.main} />
+                <Header data={this.state.items.main} />
+                <Experience data={this.state.items}/>
+                <Education data={this.state.items}/>
+                <Skills data={this.state.items}/>
+                <Projects data={this.state.items}/>
+                </div>
+                );
         }
+    }
+}
 
-        export default App;
+export default App;
