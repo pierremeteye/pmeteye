@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import ParticlesReact from './ParticlesReact';
 
 export default class Header extends Component {
     render() {
@@ -18,8 +19,8 @@ export default class Header extends Component {
         }
         return(
             <section className="resume-section p-3 p-lg-5 d-flex d-column" id="About">
-                <div className="fullCentered">
-                    <div className="my-auto centerAbsolute center">
+            <ParticlesReact />
+                    <div className="my-auto">
                         <h1 className="mb-0">Pierre
                             <span className="text-primary m-t-25"> Météyé</span>
                         </h1>
@@ -30,8 +31,11 @@ export default class Header extends Component {
                         <ul className="list-inline list-social-icons mb-0">
                             {network}
                         </ul>
+                        <div>
+                            <p className="m-t-50">Build with</p>
+                            <i className="devicon-react-original fs-50"></i>
+                        </div>
                     </div>
-                </div>
             </section>
         )
     }

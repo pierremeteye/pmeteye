@@ -6,8 +6,6 @@ import Experience from './components/Experience';
 import Education from './components/Education';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
-import ParticlesReact from './components/ParticlesReact';
-
 
 class App extends Component {
 
@@ -47,7 +45,7 @@ class App extends Component {
         } else {
             return (
                 <div id="#App" className="App">
-                <ParticlesReact />
+                
                 <Nav data={this.state.items.main} />
                 <Header data={this.state.items.main} />
                 <Experience data={this.state.items}/>

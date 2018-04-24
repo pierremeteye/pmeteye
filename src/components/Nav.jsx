@@ -14,8 +14,6 @@ export default class Nav extends Component {
         return(
 
             <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-                <p className="absolute t-0 nav-link">Build with</p>
-                <i className="devicon-react-original fs-50 m-t-50"></i>
                 <a className="navbar-brand js-scroll-trigger" href="#page-top">
                     <span className="d-none d-lg-block">
                         <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="" />
