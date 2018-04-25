@@ -60,17 +60,17 @@
             },
             {
                 "school":"ECITV - Paris",
-                "degree":"Master 2 Digital Marketing and E-business",
+                "degree":"Master 2 Digital Marketing & E-business",
                 "graduated":"Mars 2016"
             },
             {
                 "school":"Pôle Paris Alternance (PPA) - Paris",
-                "degree":"Bachelor Marketing and trade",
+                "degree":"Bachelor Marketing & Commerce",
                 "graduated":"Juillet 2013"
             },
             {
                 "school":"Fustel de Coulanges - Massy",
-                "degree":"Technical Degrees in Negociation and relationship",
+                "degree":"Négociation et Relation Client",
                 "graduated":"Juillet 2012"
             },
             {
@@ -80,7 +80,7 @@
             },
             {
                 "school":"Francisque Sarcey - Dourdan",
-                "degree":"High School Diploma in Commercial",
+                "degree":"Baccalauréat Professionnel Vente",
                 "graduated":"Juillet 2010"
             }
 
@@ -136,6 +136,9 @@
             },
             {
                 "name":"babel"
+            },
+            {
+                "name":"git"
             },
             {
                 "name":"webpack"
