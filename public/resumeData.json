@@ -152,6 +152,12 @@
         ],
         "projects": [
             {
+                "title":"Weather App",
+                "category":"Web Design",
+                "image":"weather.jpg",
+                "url":"https://pmeteye.github.io/weather-react/"
+            },
+            {
                 "title":"CanvasBalls",
                 "category":"Web Design",
                 "image":"canvasBalls.jpg",
