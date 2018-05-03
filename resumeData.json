@@ -31,19 +31,19 @@
                 },
                 {
                     "name": "Expériences",
-                    "href": "experience"
+                    "href": "/experience"
                 },
                 {
                     "name": "Diplomes",
-                    "href": "education"
+                    "href": "/education"
                 },
                 {
                     "name": "Compétences",
-                    "href": "skills"
+                    "href": "/skills"
                 },
                 {
                     "name": "Projets",
-                    "href": "projects"
+                    "href": "/projects"
                 }
             ]
         },
