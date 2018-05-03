@@ -18,22 +18,24 @@ export default class Header extends Component {
             });
         }
         return(
-            <section className="d-flex d-column h-100p" id="About">
+            <section className="d-flex d-column relative h-100p" id="About">
             <ParticlesReact />
                     <div className="my-auto">
-                        <h1 className="mb-0">Pierre
-                            <span className="text-primary m-t-25"> Météyé</span>
-                        </h1>
-                        <div className="subheading mb-5">
-                            <p>07.62.12.80.28</p>
-                            <a href="mailto:meteyepg@gmail.com">meteyepg@gmail.com</a>
-                        </div>
-                        <ul className="list-inline list-social-icons mb-0">
-                            {network}
-                        </ul>
-                        <div>
-                            <p className="m-t-50">Build with</p>
-                            <i className="devicon-react-original fs-50"></i>
+                        <div className="p-50">
+                            <h1 className="mb-0">Pierre
+                                <span className="text-primary m-t-25"> Météyé</span>
+                            </h1>
+                            <div className="subheading mb-5">
+                                <p>07.62.12.80.28</p>
+                                <a href="mailto:meteyepg@gmail.com">meteyepg@gmail.com</a>
+                            </div>
+                            <ul className="list-inline list-social-icons mb-0">
+                                {network}
+                            </ul>
+                            <div>
+                                <p className="m-t-50">Build with</p>
+                                <i className="devicon-react-original fs-50"></i>
+                            </div>
                         </div>
                     </div>
             </section>
