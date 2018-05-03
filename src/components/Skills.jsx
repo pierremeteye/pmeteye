@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import ParticlesReact from './ParticlesReact';
 
 export default class Skills extends Component {
     render(){
@@ -12,15 +13,18 @@ export default class Skills extends Component {
             })
         }
         return(
-            <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="Skills">
+            <section className="d-flex flex-column h-100p relative" id="Skills">
+            <ParticlesReact />
               <div className="my-auto">
-                <h2 className="mb-5">Skills</h2>
+                <div className="p-50">
+                    <h2 className="mb-5">Compétences</h2>
 
-                <div className="subheading mb-3">Programming Languages &amp; Tools</div>
+                    <div className="subheading mb-3">Programming Languages &amp; Tools</div>
 
-                <ul className="list-inline list-icons">
-                    {skills}
-                </ul>
+                    <ul className="list-inline list-icons">
+                        {skills}
+                    </ul>
+                </div>
               </div>
             </section>
         )

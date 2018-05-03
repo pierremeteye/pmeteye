@@ -18,7 +18,7 @@ export default class Header extends Component {
             });
         }
         return(
-            <section className="resume-section p-3 p-lg-5 d-flex d-column" id="About">
+            <section className="d-flex d-column h-100p" id="About">
             <ParticlesReact />
                     <div className="my-auto">
                         <h1 className="mb-0">Pierre

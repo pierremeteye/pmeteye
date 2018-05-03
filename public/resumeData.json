@@ -27,23 +27,23 @@
             "menu":[
                 {
                     "name": "Accueil",
-                    "href": "#Home"
+                    "href": "/"
                 },
                 {
                     "name": "Expériences",
-                    "href": "#Experience"
+                    "href": "/experience"
                 },
                 {
                     "name": "Diplomes",
-                    "href": "#Education"
+                    "href": "/education"
                 },
                 {
                     "name": "Compétences",
-                    "href": "#Skills"
+                    "href": "/skills"
                 },
                 {
                     "name": "Projets",
-                    "href": "#Projects"
+                    "href": "/projects"
                 }
             ]
         },

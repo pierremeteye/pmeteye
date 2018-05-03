@@ -6921,6 +6921,9 @@ body,
 .resume-section {
   padding: 3rem !important; }
 
+.h-100p {
+  height: 100%; }
+
 body {
   font-family: 'Source Code Pro', monospace;
   padding-top: 54px;

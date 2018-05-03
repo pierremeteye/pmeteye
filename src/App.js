@@ -7,6 +7,10 @@ import Education from './components/Education';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 
+import { Switch, Route } from 'react-router-dom'
+
+
+
 class App extends Component {
 
     constructor(props) {
@@ -45,13 +49,30 @@ class App extends Component {
         } else {
             return (
                 <div id="#App" className="App">
-                
-                <Nav data={this.state.items.main} />
-                <Header data={this.state.items.main} />
-                <Experience data={this.state.items}/>
-                <Education data={this.state.items}/>
-                <Skills data={this.state.items}/>
-                <Projects data={this.state.items}/>
+                <Nav data={this.state.items.main}/>
+                    <Switch>
+                      <Route exact path='/'>
+                        <Header data={this.state.items.main} />
+                      </Route>
+                      <Route exact path='/experience'>
+                        <Experience data={this.state.items}/>
+                      </Route>
+                      <Route exact path='/education'>
+                        <Education data={this.state.items}/>
+                      </Route>
+                      <Route exact path='/skills'>
+                        <Skills data={this.state.items}/>
+                      </Route>
+                      <Route exact path='/projects'>
+                        <Projects data={this.state.items}/>
+                      </Route>
+                    </Switch>
+                    {/*<Nav data={this.state.items.main} />                
+                    <Header data={this.state.items.main} />
+                    <Experience data={this.state.items}/>
+                    <Education data={this.state.items}/>
+                    <Skills data={this.state.items}/>
+                    <Projects data={this.state.items}/>*/}
                 </div>
                 );
         }

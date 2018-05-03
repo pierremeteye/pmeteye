@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import ParticlesReact from './ParticlesReact';
 
 export default class Education extends Component {
     render(){
@@ -18,10 +19,13 @@ export default class Education extends Component {
             });
         }
         return(
-            <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="Education">
+            <section className="d-flex flex-column h-100p relative" id="Education">
+            <ParticlesReact />
                 <div className="my-auto">
-                    <h2 className="mb-5">Education</h2>
-                    {diplomes}
+                    <div className="p-50">
+                        <h2 className="mb-5">Diplômes</h2>
+                        {diplomes}
+                    </div>
                 </div>
             </section>
 
