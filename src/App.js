@@ -37,7 +37,7 @@ class App extends Component {
                     error
                 });
             }
-            )
+        )
     }
     render() {
         const { error, isLoaded } = this.state;
@@ -51,28 +51,22 @@ class App extends Component {
                 <div id="#App" className="App">
                 <Nav data={this.state.items.main}/>
                     <Switch>
-                      <Route exact path='/'>
+                      <Route exact path={`${process.env.PUBLIC_URL}/`}>
                         <Header data={this.state.items.main} />
                       </Route>
-                      <Route exact path='/experience'>
+                      <Route exact path={process.env.PUBLIC_URL + "/experience"}>
                         <Experience data={this.state.items}/>
                       </Route>
-                      <Route exact path='/education'>
+                      <Route exact path={process.env.PUBLIC_URL + "/education"}>
                         <Education data={this.state.items}/>
                       </Route>
-                      <Route exact path='/skills'>
+                      <Route exact path={process.env.PUBLIC_URL + "/skills"}>
                         <Skills data={this.state.items}/>
                       </Route>
-                      <Route exact path='/projects'>
+                      <Route exact path={process.env.PUBLIC_URL + "/projects"}>
                         <Projects data={this.state.items}/>
                       </Route>
                     </Switch>
-                    {/*<Nav data={this.state.items.main} />                
-                    <Header data={this.state.items.main} />
-                    <Experience data={this.state.items}/>
-                    <Education data={this.state.items}/>
-                    <Skills data={this.state.items}/>
-                    <Projects data={this.state.items}/>*/}
                 </div>
                 );
         }

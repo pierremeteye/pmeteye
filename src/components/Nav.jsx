@@ -6,7 +6,7 @@ export default class Nav extends Component {
             var menu = this.props.data.menu.map((menu) => {
                 return (
                     <li className="nav-item" key={menu.name}>
-                        <a className="nav-link js-scroll-trigger" href={menu.href}>{menu.name}</a>
+                        <a className="nav-link js-scroll-trigger" href={process.env.PUBLIC_URL + menu.href}>{menu.name}</a>
                     </li>
                 )
             })
