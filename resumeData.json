@@ -27,23 +27,23 @@
             "menu":[
                 {
                     "name": "Accueil",
-                    "href": "/pmeteye/"
+                    "href": "/"
                 },
                 {
                     "name": "Expériences",
-                    "href": "/pmeteye/experience/"
+                    "href": "pmeteye/experience/"
                 },
                 {
                     "name": "Diplomes",
-                    "href": "/pmeteye/education/"
+                    "href": "pmeteye/education/"
                 },
                 {
                     "name": "Compétences",
-                    "href": "/pmeteye/skills/"
+                    "href": "pmeteye/skills/"
                 },
                 {
                     "name": "Projets",
-                    "href": "/pmeteye/projects/"
+                    "href": "pmeteye/projects/"
                 }
             ]
         },
