@@ -31,19 +31,19 @@
                 },
                 {
                     "name": "Expériences",
-                    "href": "pmeteye/experience/"
+                    "href": "/experience"
                 },
                 {
                     "name": "Diplomes",
-                    "href": "pmeteye/education/"
+                    "href": "/education"
                 },
                 {
                     "name": "Compétences",
-                    "href": "pmeteye/skills/"
+                    "href": "/skills"
                 },
                 {
                     "name": "Projets",
-                    "href": "pmeteye/projects/"
+                    "href": "/projects"
                 }
             ]
         },
