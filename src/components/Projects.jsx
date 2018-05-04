@@ -7,9 +7,9 @@ export default class Interests extends Component {
             var projects = this.props.data.projects.map((projects) => {
             var imgUrl = 'img/' + projects.image;
                 return(
-                <div className="card col-3 f-l p-0" key={projects.title}>
-                    <a className="p-15" href={projects.url} target="_blank">
-                      <img className="card-img-top" src={imgUrl} alt={projects.title} />
+                <div className="col-2 m-50 f-l p-0 col-3 f-l p-0 boxShadow h-500" key={projects.title}>
+                    <a className="col-12 p-0" href={projects.url} target="_blank">
+                      <img className="card-img-top col-12 p-0" src={imgUrl} alt={projects.title} />
                       <div className="card-body">
                         <h5 className="card-title">{projects.title}</h5>
                       </div>
@@ -21,9 +21,9 @@ export default class Interests extends Component {
         return(
             <section className="d-flex flex-column relative h-100p p-0" id="Projects">
             <ParticlesReact />
-              <div className="my-auto">
-                <div class="p-50">
-                    <h2 className="mb-5">Projets</h2>
+              <div className="my-auto p-t-50">
+                <div className="p-50">
+                    <h2 className="mb-5 p-l-85">Projets</h2>
                     {projects}
                 </div>
               </div>

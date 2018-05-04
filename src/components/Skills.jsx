@@ -15,7 +15,7 @@ export default class Skills extends Component {
         return(
             <section className="d-flex flex-column h-100p relative" id="Skills">
             <ParticlesReact />
-              <div className="my-auto">
+              <div className="my-auto p-t-50">
                 <div className="p-50">
                     <h2 className="mb-5">Compétences</h2>
 

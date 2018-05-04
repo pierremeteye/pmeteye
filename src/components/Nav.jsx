@@ -1,33 +1,67 @@
 import React, {Component} from "react";
 
 export default class Nav extends Component {
+     constructor(props) {
+        super(props);
+        this.state = {
+            isToggleOn: false
+        };
+
+        // This binding is necessary to make `this` work in the callback
+        this.handleClick = this.handleClick.bind(this);
+      }
+      handleClick() {
+        if (this.state.isToggleOn === false && window.outerWidth > 981) {
+            document.querySelector('section').classList.add('moveContent')
+            document.querySelector('section').classList.remove('backLogo')
+        } else if (this.state.isToggleOn === false && window.outerWidth < 981) {
+            document.querySelector('section').classList.toggle('hide')
+        } else {
+            if (window.outerWidth < 981) {
+                document.querySelector('section').classList.toggle('hide')
+            }
+            document.querySelector('section').classList.toggle('backLogo')
+        }
+        this.setState(prevState => ({
+          isToggleOn: !prevState.isToggleOn
+        }));
+      }
     render(){
         if (this.props.data) {
             var menu = this.props.data.menu.map((menu) => {
                 return (
-                    <li className="nav-item" key={menu.name}>
-                        <a className="nav-link js-scroll-trigger" href={process.env.PUBLIC_URL + menu.href}>{menu.name}</a>
+                    <li className="nav-item noListStyle" key={menu.name}>
+                        <a className="nav-link js-scroll-trigger fs-20 fs-sm-52 white " href={process.env.PUBLIC_URL + menu.href}>{menu.name}</a>
                     </li>
                 )
             })
         }
         return(
-
-            <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-                <a className="navbar-brand js-scroll-trigger" href="#page-top">
-                    <span className="d-none d-lg-block">
-                        <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="" />
-                    </span>
-                </a>
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
-                <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul className="navbar-nav">
-                        {menu}
-                    </ul>
+            <div>
+                <div id="Menus">
+                    <div id="Menu" className={`${this.state.isToggleOn === true && window.outerWidth > 981 ? 'f-l showMenu' : 'f-l hide'}`}>
+                        <aside>
+                            <ul className="p-l-70 ulMenu">
+                                {menu}
+                            </ul>
+                        </aside>
+                    </div>
+                    <div id="nav-icon1" className={`${this.state.isToggleOn === true ? 'f-l open' : 'f-l'}`} onClick={this.handleClick}>
+                        <span className={`${this.state.isToggleOn === true ? 'bgWhite' : 'bgPrimary'}`}></span>
+                        <span className={`${this.state.isToggleOn === true ? 'bgWhite' : 'bgPrimary'}`}></span>
+                        <span className={`${this.state.isToggleOn === true ? 'bgWhite' : 'bgPrimary'}`}></span>
+                    </div>
                 </div>
-            </nav>
+
+
+                <div id="MenuMobile" className={"col-12 f-l absolute " + `${this.state.isToggleOn === true && window.outerWidth < 981 ? 'show' : 'hide'}`}>
+                    <aside className="col-12 center">
+                        <ul className="ulMenu m-t-sm-80">
+                            {menu}
+                        </ul>
+                    </aside>
+                </div>
+            </div>
         )
     }
 };

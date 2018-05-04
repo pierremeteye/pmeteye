@@ -22,8 +22,8 @@ export default class Experience extends Component {
         return(
             <section className="d-flex flex-column relative h-100p" id="Experience">
             <ParticlesReact />
-                <div className="my-auto">
-                    <div class="p-50">
+                <div className="my-auto p-t-50">
+                    <div className="p-50">
                         <h2 className="mb-5">Expérience</h2>
                         {work}
                     </div>

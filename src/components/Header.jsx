@@ -20,7 +20,7 @@ export default class Header extends Component {
         return(
             <section className="d-flex d-column relative h-100p" id="About">
             <ParticlesReact />
-                    <div className="my-auto">
+                    <div className="my-auto p-t-50">
                         <div className="p-50">
                             <h1 className="mb-0">Pierre
                                 <span className="text-primary m-t-25"> Météyé</span>
